@@ -1,0 +1,53 @@
+1. git init - initiate a git for your project
+2. ls -a, to view the files 
+3. .git files
+4. git clone - to clone you existing project into your local 
+5. rm -rf .git/ - to remove git config files 
+6. git status - to check the git status 
+7. git add . - to add modified files
+8. git commit -m "commit messages"
+9. git push - push your changes to the origin / mention the branch to push your changes 
+10 touch README.md - create a read me file
+11. git pull - pull you changes from origin
+12. git fetch & git merge == git pull
+13. git branch name - to check the branch 
+14, git branch - to check all the brances 
+15. git checkout swichbrancjname - to create a new branch 
+16. git checkout -b branchname - to create a new branch and switch to that branch
+17. git branch -d branchname - delete the branch 
+
+
+Merge conflicts:
+
+1. git status 
+2. open that file
+3. check for >>>>>>> and delete the one which you dont want 
+
+Git Statshing: (store the modified files temporarly in the local)
+
+1. git checkout -b
+2. change something
+3. git commit 
+4. git stash
+
+Get the Stashed files:
+
+1. checkout the branch
+2. git stash apply
+3. start doing the changes 
+4. git commit 
+5. git push
+
+Git Rebase:
+1. git status 
+2. git fetch 
+3. git log origin/master 
+4. make changes
+5. git rebase -i origin/master
+6. pick squash
+
+Additionals: 
+
+1. git log - to view all the commits in that repo
+2. git tag v1.0.0 
+3. git tag - to view that tags
