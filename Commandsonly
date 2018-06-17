@@ -1,4 +1,4 @@
-1. git init - initiate a git for your project
+............1. git init - initiate a git for your project
 2. ls -a, to view the files 
 3. .git files
 4. git clone - to clone you existing project into your local 
@@ -51,3 +51,6 @@ Additionals:
 1. git log - to view all the commits in that repo
 2. git tag v1.0.0 
 3. git tag - to view that tags
+
+
+This the demo.
